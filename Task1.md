@@ -103,8 +103,8 @@ import numpy as np
 
 ## 6) pep8 介绍
 
-规范 python 代码风格
-建议：
+规范 python 代码风格建议：
+
 ① 所有行的字符数量不超过79个
 
 ② 使用 spaces 代替 tab 缩进代码行
