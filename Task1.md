@@ -33,15 +33,21 @@ Pycharm
 ## 1)  print and input
 
 print()是函数，表示将小括号内的数据打印（显示）到屏幕，可以输出 string, number, variable 等值
+
 例：
+
 print("Hello world!")
+
 print(123)
 
 a = 100
+
 print(a)
 
 input() 是输入函数，接受用户的输入，用户可以输入 string, number
+
 例：
+
 a = input('请输入你的名字：')
 
 # 3. python 基础讲解
@@ -51,18 +57,28 @@ a = input('请输入你的名字：')
 ### python 变量特征
 
 变量可以指定不同的数据类型，可以存储 number，string, python 数据容器（列表、元组、集合、字典）
+
 a = 120
+
 b = "this is an example."
+
 c = [1, 2, 3]
+
 d = (1, 2, 3)
+
 e = {12, 23, 34}
+
 f = {'name':'陈国艺', 'city':'广州'}
 
 ### python 变量命名规则
 python 使用标识符给变量命名
+
 规则：
+
 a. 第一个字符必须是字母表中字母或下划线 _ 
+
 b. 标识符的其他的部分由字母、数字和下划线组成
+
 c. 标识符对大小写敏感，严格区分大小写。ab 与 Ab 是不一样的
 
 在 Python 3 中，允许非 ASCII 标识符命名变量，如中文、日文字符
@@ -96,6 +112,7 @@ c. 标识符对大小写敏感，严格区分大小写。ab 与 Ab 是不一样�
 ## 4) 学会使用 dir() 及 help()
 
 dir() 函数不带参数时，返回当前范围内的变量、方法和定义的类型列表；带参数时，返回参数的属性、方法列表
+
 help() 函数用于查看函数或模块用途的详细说明，返回对象帮助信息
 
 ## 5) import 使用
@@ -105,6 +122,7 @@ help() 函数用于查看函数或模块用途的详细说明，返回对象帮�
 例：
 
 import os
+
 import numpy as np
 
 ## 6) pep8 介绍
@@ -128,9 +146,13 @@ import numpy as np
 # 4. Pyhon 数值基本知识
 
 ## 1) python 中数值类型，int float bool e记法等
+
 int 表示整数，如：1， 2， 3, 4，...整数类型可以转换为浮点数类型，float()
+
 float 表示浮点数，如：3.14, 2.35。浮点类型可以转换为整数类型，int()
+
 Bool 布尔类型，有两个值 True 和 False
+
 e记法 表示过小数或过大数的一种方法
 
 
