@@ -20,7 +20,13 @@
 
 ## 1.2 解释器
 
+Python 自带的 IDLE
 
+windows CMD
+
+Jupyter Notebook
+
+Pycharm
 
 # 2. Python 初体验
 
@@ -103,15 +109,21 @@ import numpy as np
 
 ## 6) pep8 介绍
 
+[PEP8 官方说明](https://www.python.org/dev/peps/pep-0008/)
+
+[PEP8 中文版](https://blog.csdn.net/ratsniper/article/details/78954852#should-a-line-break-before-or-after-a-binary-operator-%E5%9C%A8%E4%BA%8C%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6%E4%B9%8B%E5%89%8D%E5%BA%94%E8%AF%A5%E6%8D%A2%E8%A1%8C%E5%90%97)
+
 规范 python 代码风格建议：
 
-① 所有行的字符数量不超过79个
+① 缩进，使用 4个 Spaces
 
-② 使用 spaces 代替 tab 缩进代码行
+② 使用 Spaces 而不是 Tab
 
-③ 
+③ 所有行的字符数量不超过79个，文档和注释不超过72个字符
 
+④ 二元运算符之前换行
 
+等等
 
 # 4. Pyhon 数值基本知识
 
