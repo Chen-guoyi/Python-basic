@@ -45,8 +45,8 @@
 - L = tuple()
 #### 不可变性
 - 可以将元组转换为列表，再应用列表方法，最后生成新元组
-l = list(L)
-k = tuple(l)
+*l = list(L)
+*k = tuple(l)
 -
 
 ## 3.string字符串
