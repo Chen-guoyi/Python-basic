@@ -60,4 +60,4 @@
 ## 4.字符串格式化问题
 1. str.format()
 2. %-formatting
-3. f-Strings：一种改进Python格式字符串的新方法
+3. f-Strings：一种改进Python格式字符串的新方法（推荐）
